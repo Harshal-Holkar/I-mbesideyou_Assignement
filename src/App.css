@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+  color: aquamarine;
+  text-align: center;
+}
+
+.model {
+  position: relative;
+  z-index: 8;
+  align-items: center;
+  margin: auto;
+  width: 90vh;
+  height: 50vh;
+  min-width: 640px;
+  min-height: 480px;
+  ;
+}
+
+.extra {
+  border-radius: 10%;
+  background-color: aqua;
+  z-index: 1;
+}
+
+.imgArea {
+  border-radius: 10%;
+  position: absolute;
+  z-index: 8;
+  top: 10%;
+  left: 22%;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.button {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  align-items: center;
+  margin-left: auto;
+}
